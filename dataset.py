@@ -11,14 +11,6 @@ plt.ion()
 # Load Dataset
 df = pd.read_csv(r"C:\Users\shwet\Downloads\titanic.csv")
 
-# Questions for Analysis
-# print("\nQUESTIONS FOR ANALYSIS")
-# print("1. Which gender had a higher survival rate?")
-# print("2. Did passenger class affect survival?")
-# print("3. Are there missing values in the dataset?")
-# print("4. Are there outliers in fare prices?")
-# print("5. What is the age distribution of passengers?")
-
 # 1. Display First 5 Rows
 print("\nFIRST 5 ROWS OF DATASET")
 print(df.head())
@@ -103,10 +95,3 @@ plt.savefig("graph5.png")
 plt.show()
 
 
-# # 9. Final Conclusion
-# print("\nCONCLUSION")
-# print("1. Females survived more than males.")
-# print("2. First-class passengers had higher survival rates.")
-# print("3. Some columns contain missing values.")
-# print("4. Fare column has outliers.")
-# print("5. Gender and passenger class affected survival.")
